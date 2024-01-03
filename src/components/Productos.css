@@ -1,0 +1,38 @@
+.precio-anterior{
+    color: var(--color1);
+    font-size: 0.8em;
+    margin-left: 3px;
+    margin-right: 3px;
+    text-decoration: line-through;
+}
+.porcentaje-descuento{
+    position: absolute;
+    background-color: var(--color1);
+    color: var(--color-blanco);
+    padding: 5px 10px;
+}
+#tienda .card{
+    overflow: hidden;
+}
+.bi-eye{
+    position: absolute;
+    right: -50px;
+    top: 5px;
+    background-color: rgba(0,0,0,0.2);
+    color: var(--color-blanco);
+    padding: 11px 15px;
+    border-radius: 50%;
+    transition: all .5s ease-in-out;
+    opacity: 0;
+    cursor: pointer;
+}
+.bi-eye-final{
+    right: 10px;
+    opacity: 1;
+}
+.bi-basket{
+    cursor: pointer;
+}
+.bi-basket:hover{
+    color: var(--color1);
+}

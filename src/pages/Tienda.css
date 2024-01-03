@@ -1,0 +1,7 @@
+.end-0 {
+    right: 10px!important;
+}
+.list-group-item.active {
+    background-color: var(--color1);
+    border-color: var(--color1);
+}

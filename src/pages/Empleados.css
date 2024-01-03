@@ -1,0 +1,22 @@
+
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.table-container table {
+    width: 80%; 
+    border-collapse: collapse;
+}
+
+.table-container th, .table-container td {
+    border: 1px solid #ddd; 
+    padding: 8px;
+    text-align: left;
+}
+
+.table-container th {
+    background-color: #f2f2f2; 
+}

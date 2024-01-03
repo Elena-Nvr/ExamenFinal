@@ -1,0 +1,33 @@
+
+#pedidosDetalle {
+  padding: 20px;
+}
+
+.card {
+  height: 80%;
+}
+
+.card-img-top {
+  width: 130px;
+  height: auto;
+  
+}
+
+
+@media (max-width: 992px) {
+  .card {
+    height: 180px; 
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    height: 160px; 
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    height: 140px; 
+  }
+}
